@@ -201,7 +201,7 @@ function AssetDetail() {
               <h3 className="text-lg font-semibold text-gray-800 mb-3">Código QR</h3>
               <div className="bg-white p-4 rounded-md flex justify-center">
                 <QRCode
-                  value={`http://localhost:5173/activo/qr/${asset.qr_indentificador}`}
+                  value={`https://gestionitpfrontend.vercel.app/qr/${asset.qr_indentificador}`}
                   size={200}
                   className="w-full h-auto"
                 />
